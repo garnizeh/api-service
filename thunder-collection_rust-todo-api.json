@@ -1,0 +1,130 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "rust-todo-api",
+    "dateExported": "2024-03-22T02:00:09.325Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "afa40061-9dd6-4ada-a8ad-19369045e96c",
+            "name": "v1",
+            "containerId": "",
+            "created": "2024-03-22T01:49:11.390Z",
+            "sortNum": 10000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "b838eb90-9ecb-4f80-8deb-54d49513b0fa",
+            "colId": "79174b45-f437-45de-98a7-81b5885863be",
+            "containerId": "",
+            "name": "alive",
+            "url": "/alive",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-03-22T01:47:45.535Z",
+            "modified": "2024-03-22T01:48:05.116Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "e985fb1a-1609-4fef-951c-d3cfe34c21a8",
+            "colId": "79174b45-f437-45de-98a7-81b5885863be",
+            "containerId": "",
+            "name": "ready",
+            "url": "/ready",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-03-22T01:48:34.494Z",
+            "modified": "2024-03-22T01:48:41.756Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "c6a63487-9983-4f58-b597-17ccd657a9c0",
+            "colId": "79174b45-f437-45de-98a7-81b5885863be",
+            "containerId": "afa40061-9dd6-4ada-a8ad-19369045e96c",
+            "name": "list todos",
+            "url": "/v1/todos",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-03-22T01:49:58.567Z",
+            "modified": "2024-03-22T01:50:14.198Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "fdc9c272-3130-48a2-aa0a-e78b5939c56b",
+            "colId": "79174b45-f437-45de-98a7-81b5885863be",
+            "containerId": "afa40061-9dd6-4ada-a8ad-19369045e96c",
+            "name": "get todo",
+            "url": "/v1/todos/1",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-03-22T01:52:53.741Z",
+            "modified": "2024-03-22T01:53:40.398Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "caa9381c-d497-4699-b473-0dde67e426e4",
+            "colId": "79174b45-f437-45de-98a7-81b5885863be",
+            "containerId": "afa40061-9dd6-4ada-a8ad-19369045e96c",
+            "name": "create todo",
+            "url": "/v1/todos",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2024-03-22T01:54:03.463Z",
+            "modified": "2024-03-22T01:54:48.241Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"body\": \"primeiro teste para fazer\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "1f36ef72-f8ad-4287-b43e-a72e571f6bac",
+            "colId": "79174b45-f437-45de-98a7-81b5885863be",
+            "containerId": "afa40061-9dd6-4ada-a8ad-19369045e96c",
+            "name": "update todo",
+            "url": "/v1/todos/1",
+            "method": "PUT",
+            "sortNum": 60000,
+            "created": "2024-03-22T01:56:16.303Z",
+            "modified": "2024-03-22T01:57:43.801Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"body\": \"primeiro teste para fazer\",\n  \"completed\": true\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "35abd2f5-f536-48bd-9205-d175b0d39bd1",
+            "colId": "79174b45-f437-45de-98a7-81b5885863be",
+            "containerId": "afa40061-9dd6-4ada-a8ad-19369045e96c",
+            "name": "delete todo",
+            "url": "/v1/todos/1",
+            "method": "DELETE",
+            "sortNum": 70000,
+            "created": "2024-03-22T01:58:05.348Z",
+            "modified": "2024-03-22T01:58:23.221Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ],
+    "settings": {
+        "options": {
+            "baseUrl": "http://localhost:3000"
+        }
+    }
+}
